@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# smart-factory-iot
-=======
 # 🏭 Smart Manufacturing IoT → Google Sheets → Web BI Dashboard
 
 > **คู่มือการใช้งานชุดปฏิบัติการ 3 Interactive Labs** สำหรับนักศึกษาระดับปริญญาตรี  
