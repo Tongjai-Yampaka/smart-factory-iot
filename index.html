@@ -1,67 +1,17 @@
-<!doctype html>
-<html lang="th">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Smart Factory · Portal</title>
-  <link rel="stylesheet" href="assets/style.css">
-</head>
-<body>
-  <header>
-    <a href="index.html"><b>🏭 SMART FACTORY LAB in Emerging Frontier Technologies Course</b></a>
-    <a href="lab01.html">Lab 01</a>
-    <a href="lab02.html">Lab 02</a>
-    <a href="lab03.html">Lab 03</a>
-    <small>Cirkit Designer → Google Sheets → Dashboard </small>
-    <p>By Assistant Professor Tongjai Yampaka</p>
-  </header>
-  <main class="wrap">
-    <section class="hero">
-      <span class="chip">Interactive Lab Series · 3 Modules</span>
-      <h1>Smart Manufacturing: Hardware → Cloud → Web BI</h1>
-      <p>จำลองเครื่องจักร 2 เครื่องบน Cirkit Designer จาก ESP32-S3 + เซนเซอร์ ส่งข้อมูลขึ้น Google Sheets และแสดงผล Web Dashboard แบบต่อเนื่อง</p>
-      <div class="actions">
-        <a href="lab01.html"><button>เริ่ม Lab 01 →</button></a>
-        <a href="lab03.html"><button class="secondary">ทดลอง Dashboard</button></a>
-      </div>
-    </section>
-    <div class="grid">
-      <section class="card">
-        <span class="chip">01 · Hardware</span>
-        <h3>Cirkit Designer</h3>
-        <p>วงจร M01/M02, sensor wiring, Pin mapping, Arduino sketch และ prompt สำหรับ Cirkit AI</p>
-        <a href="lab01.html">เข้าสู่ Lab 01 →</a>
-      </section>
-      <section class="card">
-        <span class="chip">02 · Cloud</span>
-        <h3>Google Sheets + Apps Script</h3>
-        <p>ปรับ parameter → ส่ง HTTPS POST → ตรวจ message_id และข้อมูลจาก 2 เครื่อง</p>
-        <a href="lab02.html">เข้าสู่ Lab 02 →</a>
-      </section>
-      <section class="card">
-        <span class="chip">03 · Dashboard</span>
-        <h3>Web BI Dashboard</h3>
-        <p>ดึงข้อมูลผ่าน Apps Script HTML Service วิเคราะห์อุณหภูมิ การสั่นเตือน ปริมาณผลิต และสถานะ</p>
-        <a href="lab03.html">เข้าสู่ Lab 03 →</a>
-      </section>
-    </div>
-    <section class="panel">
-      <h2>ระบบ 2 เครื่องจักรที่แนะนำ</h2>
-      <div class="grid">
-        <div>
-          <h3>Machine M01 — CNC</h3>
-          <p>ESP32-S3 + Potentiometer 2 ตัว (จำลอง Temperature และ Vibration) + ปุ่มนับงาน + LEDs</p>
-        </div>
-        <div>
-          <h3>Machine M02 — Assembly</h3>
-          <p>วงจรชุดเดียวกัน แต่ตั้ง MACHINE_ID=M02 และปรับ parameter ต่างกันเพื่อเปรียบเทียบ</p>
-        </div>
-      </div>
-      <div class="notice">เปิด HTML ได้โดยไม่ต้องต่ออินเทอร์เน็ตในโหมด Demo แต่การส่งข้อมูลจริงต้องเปิด Cirkit Designer และ Deploy Apps Script ด้วยบัญชี Google ของผู้สอน/ผู้เรียน</div>
-    </section>
-  </main>
-  <footer>Smart Manufacturing IIoT • Lab simulator ≠ confirmed Cloud upload</footer>
-  <script src="assets/app.js"></script>
-  <script></script>
-</body>
-</html>
+<!doctype html><html lang="th"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Smart Factory · Portal</title><meta name="description" content="Interactive Smart Manufacturing IoT Labs: Hardware Design with Cirkit Designer, Google Sheets Cloud Integration และ Web BI Dashboard สำหรับเครื่องจักร M01/M02">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="th_TH">
+<meta property="og:site_name" content="Smart Manufacturing IoT Labs">
+<meta property="og:title" content="Smart Manufacturing IoT Labs | Hardware · Cloud · BI">
+<meta property="og:description" content="3 Interactive Labs: ออกแบบวงจร ESP32-S3 ด้วย Cirkit Designer ส่งข้อมูลเครื่องจักร 2 เครื่องขึ้น Google Sheets และสร้าง Web BI Dashboard">
+<meta property="og:url" content="https://tongjai-yampaka.github.io/smart-factory-iot/">
+<meta property="og:image" content="https://tongjai-yampaka.github.io/smart-factory-iot/cover.jpg">
+<meta property="og:image:secure_url" content="https://tongjai-yampaka.github.io/smart-factory-iot/cover.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="ภาพหน้าปกหลักสูตร Smart Manufacturing IoT Labs แสดง ESP32-S3, Smart Factory และ BI Dashboard">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Smart Manufacturing IoT Labs">
+<meta name="twitter:image" content="https://tongjai-yampaka.github.io/smart-factory-iot/cover.jpg">
+<link rel="stylesheet" href="assets/style.css"></head><body><header><a href="index.html"><b>🏭 SMART FACTORY LAB</b></a><a href="lab01.html">Lab 01</a><a href="lab02.html">Lab 02</a><a href="lab03.html">Lab 03</a><small>Cirkit Designer → Google Sheets → Dashboard</small></header><main class="wrap"><section class="hero"><span class="chip">Interactive Lab Series · 3 Modules</span><h1>Smart Manufacturing: Hardware → Cloud → Web BI</h1><p>จำลองเครื่องจักร 2 เครื่องบน Cirkit Designer จาก ESP32-S3 + เซนเซอร์ ส่งข้อมูลขึ้น Google Sheets และแสดงผล Web Dashboard แบบต่อเนื่อง</p><div class="actions"><a href="lab01.html"><button>เริ่ม Lab 01 →</button></a><a href="lab03.html"><button class="secondary">ทดลอง Dashboard</button></a></div></section><div class="grid"><section class="card"><span class="chip">01 · Hardware</span><h3>Cirkit Designer</h3><p>วงจร M01/M02, sensor wiring, Pin mapping, Arduino sketch และ prompt สำหรับ Cirkit AI</p><a href="lab01.html">เข้าสู่ Lab 01 →</a></section><section class="card"><span class="chip">02 · Cloud</span><h3>Google Sheets + Apps Script</h3><p>ปรับ parameter → ส่ง HTTPS POST → ตรวจ message_id และข้อมูลจาก 2 เครื่อง</p><a href="lab02.html">เข้าสู่ Lab 02 →</a></section><section class="card"><span class="chip">03 · Dashboard</span><h3>Web BI Dashboard</h3><p>ดึงข้อมูลผ่าน Apps Script HTML Service วิเคราะห์อุณหภูมิ การสั่นเตือน ปริมาณผลิต และสถานะ</p><a href="lab03.html">เข้าสู่ Lab 03 →</a></section></div><section class="panel"><h2>ระบบ 2 เครื่องจักรที่แนะนำ</h2><div class="grid"><div><h3>Machine M01 — CNC</h3><p>ESP32-S3 + Potentiometer 2 ตัว (จำลอง Temperature และ Vibration) + ปุ่มนับงาน + LEDs</p></div><div><h3>Machine M02 — Assembly</h3><p>วงจรชุดเดียวกัน แต่ตั้ง MACHINE_ID=M02 และปรับ parameter ต่างกันเพื่อเปรียบเทียบ</p></div></div><div class="notice">เปิด HTML ได้โดยไม่ต้องต่ออินเทอร์เน็ตในโหมด Demo แต่การส่งข้อมูลจริงต้องเปิด Cirkit Designer และ Deploy Apps Script ด้วยบัญชี Google ของผู้สอน/ผู้เรียน</div></section></main><footer>Smart Manufacturing IIoT • Lab simulator ≠ confirmed Cloud upload</footer><script src="assets/app.js"></script><script></script></body></html>
